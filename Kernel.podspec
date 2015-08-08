@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
                    When I write iOS Apps using swift, there are always something similar bother me a lot. Type cast between `CGFloat` and `Double`, create color with rgb and etc. This repo providing a set of convenient methods to solve these problems.
                    DESC
 
-  s.homepage     = "https://github.com/Draveness/Kernel"
+  s.homepage     = "https://github.com/Draveness/Kernel.git"
   s.license      = "MIT"
   s.author             = { "Draveness" => "stark.draven@gmail.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "git@github.com:Draveness/Kernel.git", :tag => "0.1.0" }
+  s.source       = { :git => "git@github.com:Draveness/Kernel.git", :tag => s.version }
   s.source_files  = "Classes", "Kernel/Classes/**.swift"
 end

@@ -34,7 +34,7 @@ extension Int {
     }
 }
 
-extension Array {
+internal extension Array {
 
     func each(closure: (T) -> ()) {
         for x in self {

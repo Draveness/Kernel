@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    When I write iOS Apps using swift, there are always something similar bother me a lot. Type cast between `CGFloat` and `Double`, create color with rgb and etc. This repo providing a set of convenient methods to solve these problems.
                    DESC
 
-  # s.homepage     = "http://EXAMPLE/Kernel"
+  s.homepage     = "https://github.com/Draveness/Kernel"
   s.license      = "MIT"
   s.author             = { "Draveness" => "stark.draven@gmail.com" }
   s.platform     = :ios, "8.0"

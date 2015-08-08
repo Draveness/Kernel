@@ -11,6 +11,10 @@
 		724606391B7511BA008AD157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724606381B7511BA008AD157 /* Images.xcassets */; };
 		7246063C1B7511BA008AD157 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7246063A1B7511BA008AD157 /* LaunchScreen.xib */; };
 		724606481B7511BA008AD157 /* KernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606471B7511BA008AD157 /* KernelTests.swift */; };
+		724606651B759671008AD157 /* CoreGraphicsKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606611B759671008AD157 /* CoreGraphicsKernel.swift */; };
+		724606661B759671008AD157 /* NumberKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606621B759671008AD157 /* NumberKernel.swift */; };
+		724606671B759671008AD157 /* OperatorKernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606631B759671008AD157 /* OperatorKernel.swift */; };
+		724606681B759671008AD157 /* SyntacticSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606641B759671008AD157 /* SyntacticSugar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 		724606411B7511BA008AD157 /* KernelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		724606461B7511BA008AD157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724606471B7511BA008AD157 /* KernelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernelTests.swift; sourceTree = "<group>"; };
+		724606611B759671008AD157 /* CoreGraphicsKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsKernel.swift; sourceTree = "<group>"; };
+		724606621B759671008AD157 /* NumberKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberKernel.swift; sourceTree = "<group>"; };
+		724606631B759671008AD157 /* OperatorKernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorKernel.swift; sourceTree = "<group>"; };
+		724606641B759671008AD157 /* SyntacticSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntacticSugar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 		724606331B7511BA008AD157 /* Kernel */ = {
 			isa = PBXGroup;
 			children = (
+				724606511B7511F1008AD157 /* Classes */,
 				724606361B7511BA008AD157 /* AppDelegate.swift */,
 				724606381B7511BA008AD157 /* Images.xcassets */,
 				7246063A1B7511BA008AD157 /* LaunchScreen.xib */,
@@ -104,6 +113,17 @@
 				724606461B7511BA008AD157 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		724606511B7511F1008AD157 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				724606611B759671008AD157 /* CoreGraphicsKernel.swift */,
+				724606621B759671008AD157 /* NumberKernel.swift */,
+				724606631B759671008AD157 /* OperatorKernel.swift */,
+				724606641B759671008AD157 /* SyntacticSugar.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724606681B759671008AD157 /* SyntacticSugar.swift in Sources */,
+				724606671B759671008AD157 /* OperatorKernel.swift in Sources */,
+				724606651B759671008AD157 /* CoreGraphicsKernel.swift in Sources */,
+				724606661B759671008AD157 /* NumberKernel.swift in Sources */,
 				724606371B7511BA008AD157 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

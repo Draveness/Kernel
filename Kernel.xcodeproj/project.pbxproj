@@ -16,6 +16,7 @@
 		724606671B759671008AD157 /* Operator+Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606631B759671008AD157 /* Operator+Kernel.swift */; };
 		724606681B759671008AD157 /* SyntacticSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606641B759671008AD157 /* SyntacticSugar.swift */; };
 		7246066A1B7596E5008AD157 /* UIView+Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724606691B7596E5008AD157 /* UIView+Kernel.swift */; };
+		7246066C1B759DB4008AD157 /* UIColor+Kernel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7246066B1B759DB4008AD157 /* UIColor+Kernel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		724606631B759671008AD157 /* Operator+Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Kernel.swift"; sourceTree = "<group>"; };
 		724606641B759671008AD157 /* SyntacticSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntacticSugar.swift; sourceTree = "<group>"; };
 		724606691B7596E5008AD157 /* UIView+Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Kernel.swift"; sourceTree = "<group>"; };
+		7246066B1B759DB4008AD157 /* UIColor+Kernel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Kernel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				724606631B759671008AD157 /* Operator+Kernel.swift */,
 				724606641B759671008AD157 /* SyntacticSugar.swift */,
 				724606691B7596E5008AD157 /* UIView+Kernel.swift */,
+				7246066B1B759DB4008AD157 /* UIColor+Kernel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				724606651B759671008AD157 /* CoreGraphics+Kernel.swift in Sources */,
 				724606661B759671008AD157 /* Number+Kernel.swift in Sources */,
 				724606371B7511BA008AD157 /* AppDelegate.swift in Sources */,
+				7246066C1B759DB4008AD157 /* UIColor+Kernel.swift in Sources */,
 				7246066A1B7596E5008AD157 /* UIView+Kernel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

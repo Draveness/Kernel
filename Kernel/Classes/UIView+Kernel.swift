@@ -8,6 +8,14 @@
 
 import UIKit
 
+// MARK: - Initializers
+public extension UIView {
+    convenience init(size: CGSize) {
+        self.init(frame: CGRect(origin: CGPointZero, size: size))
+    }
+}
+
+// MARK: - Position
 public extension UIView {
 
     var origin: CGPoint {

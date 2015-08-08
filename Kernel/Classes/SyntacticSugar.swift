@@ -8,7 +8,8 @@
 
 import UIKit
 
-extension Int {
+public extension Int {
+    
     func times(closure: () -> ()) {
         for _ in 0..<self {
             closure()
@@ -33,7 +34,8 @@ extension Int {
     }
 }
 
-extension Array {
+public extension Array {
+
     func each(closure: (T) -> ()) {
         for x in self {
             closure(x)

@@ -8,7 +8,9 @@
 
 import UIKit
 
-extension CGRect {
+// MARK: - Initializers
+public extension CGRect {
+    
     init(size: CGSize) {
         self.init(origin: CGPointZero, size: size)
     }
@@ -24,7 +26,11 @@ extension CGRect {
     init(width: Int, height: Int) {
         self.init(size: CGSize(width: width, height: height))
     }
+}
 
+// MARK: - Position
+public extension CGRect {
+    
     var x: CGFloat {
         get { return self.origin.x }
         set { self.origin.x = newValue }

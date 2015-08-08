@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - Initializers
-public extension CGRect {
+extension CGRect {
     
     init(size: CGSize) {
         self.init(origin: CGPointZero, size: size)
@@ -29,7 +29,7 @@ public extension CGRect {
 }
 
 // MARK: - Position
-public extension CGRect {
+extension CGRect {
     
     var x: CGFloat {
         get { return self.origin.x }

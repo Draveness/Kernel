@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension Int {
+extension Int {
     
     func times(closure: () -> ()) {
         for _ in 0..<self {

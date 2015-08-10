@@ -13,6 +13,9 @@ extension UIView {
     convenience init(size: CGSize) {
         self.init(frame: CGRect(origin: CGPointZero, size: size))
     }
+    convenience init(width: width, height: height) {
+        return self.init(CGSize(width: width, height: height))
+    }
 }
 
 // MARK: - Position

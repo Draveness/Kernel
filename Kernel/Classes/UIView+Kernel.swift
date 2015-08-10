@@ -13,7 +13,7 @@ extension UIView {
     convenience init(size: CGSize) {
         self.init(frame: CGRect(origin: CGPointZero, size: size))
     }
-    convenience init(width: width, height: height) {
+    convenience init(width: CGFloat, height: CGFloat) {
         return self.init(CGSize(width: width, height: height))
     }
 }
